@@ -1,0 +1,6 @@
+framework module Pods_MHLocalizableTests {
+  umbrella header "Pods-MHLocalizableTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

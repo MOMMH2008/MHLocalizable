@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CB32C518EEF6E9DC2F03E82 /* Pods_MHLocalizable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791BB0A1DFAD8B5B93DF6D59 /* Pods_MHLocalizable.framework */; };
 		8BEA260520BF540B001D1B0B /* MHLocalizable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEA25FB20BF540B001D1B0B /* MHLocalizable.framework */; };
 		8BEA260A20BF540B001D1B0B /* MHLocalizableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA260920BF540B001D1B0B /* MHLocalizableTests.swift */; };
 		8BEA260C20BF540B001D1B0B /* MHLocalizable.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BEA25FE20BF540B001D1B0B /* MHLocalizable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BEA261620BF5426001D1B0B /* MHLocalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA261520BF5426001D1B0B /* MHLocalizable.swift */; };
+		AA890F9288D11275ACAFBAAF /* Pods_MHLocalizableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8989D3AB7CCC003337D32D70 /* Pods_MHLocalizableTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +26,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		791BB0A1DFAD8B5B93DF6D59 /* Pods_MHLocalizable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHLocalizable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		863B289685FEC497E7782E80 /* Pods-MHLocalizable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHLocalizable.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHLocalizable/Pods-MHLocalizable.release.xcconfig"; sourceTree = "<group>"; };
+		87587D31AF14C9F95CD2DAD3 /* Pods-MHLocalizable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHLocalizable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHLocalizable/Pods-MHLocalizable.debug.xcconfig"; sourceTree = "<group>"; };
+		8989D3AB7CCC003337D32D70 /* Pods_MHLocalizableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHLocalizableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BEA25FB20BF540B001D1B0B /* MHLocalizable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MHLocalizable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BEA25FE20BF540B001D1B0B /* MHLocalizable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHLocalizable.h; sourceTree = "<group>"; };
 		8BEA25FF20BF540B001D1B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,6 +37,8 @@
 		8BEA260920BF540B001D1B0B /* MHLocalizableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHLocalizableTests.swift; sourceTree = "<group>"; };
 		8BEA260B20BF540B001D1B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BEA261520BF5426001D1B0B /* MHLocalizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHLocalizable.swift; sourceTree = "<group>"; };
+		8EC077B171E0E3221C96A706 /* Pods-MHLocalizableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHLocalizableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHLocalizableTests/Pods-MHLocalizableTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E15D4F06987D93EE2CBF30A7 /* Pods-MHLocalizableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHLocalizableTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHLocalizableTests/Pods-MHLocalizableTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB32C518EEF6E9DC2F03E82 /* Pods_MHLocalizable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,18 +55,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BEA260520BF540B001D1B0B /* MHLocalizable.framework in Frameworks */,
+				AA890F9288D11275ACAFBAAF /* Pods_MHLocalizableTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5708F30ACAA76685A8EE0C97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87587D31AF14C9F95CD2DAD3 /* Pods-MHLocalizable.debug.xcconfig */,
+				863B289685FEC497E7782E80 /* Pods-MHLocalizable.release.xcconfig */,
+				8EC077B171E0E3221C96A706 /* Pods-MHLocalizableTests.debug.xcconfig */,
+				E15D4F06987D93EE2CBF30A7 /* Pods-MHLocalizableTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8BEA25F120BF540B001D1B0B = {
 			isa = PBXGroup;
 			children = (
 				8BEA25FD20BF540B001D1B0B /* MHLocalizable */,
 				8BEA260820BF540B001D1B0B /* MHLocalizableTests */,
 				8BEA25FC20BF540B001D1B0B /* Products */,
+				5708F30ACAA76685A8EE0C97 /* Pods */,
+				E977968298F5FED6BB60E49B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +112,15 @@
 			path = MHLocalizableTests;
 			sourceTree = "<group>";
 		};
+		E977968298F5FED6BB60E49B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				791BB0A1DFAD8B5B93DF6D59 /* Pods_MHLocalizable.framework */,
+				8989D3AB7CCC003337D32D70 /* Pods_MHLocalizableTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -107,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BEA260F20BF540B001D1B0B /* Build configuration list for PBXNativeTarget "MHLocalizable" */;
 			buildPhases = (
+				6A6083BF5C2B6E0908A5F7C2 /* [CP] Check Pods Manifest.lock */,
 				8BEA25F620BF540B001D1B0B /* Sources */,
 				8BEA25F720BF540B001D1B0B /* Frameworks */,
 				8BEA25F820BF540B001D1B0B /* Headers */,
@@ -125,6 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BEA261220BF540B001D1B0B /* Build configuration list for PBXNativeTarget "MHLocalizableTests" */;
 			buildPhases = (
+				4B692C7802591A70A92388B7 /* [CP] Check Pods Manifest.lock */,
 				8BEA260020BF540B001D1B0B /* Sources */,
 				8BEA260120BF540B001D1B0B /* Frameworks */,
 				8BEA260220BF540B001D1B0B /* Resources */,
@@ -192,6 +226,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B692C7802591A70A92388B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MHLocalizableTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A6083BF5C2B6E0908A5F7C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MHLocalizable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8BEA25F620BF540B001D1B0B /* Sources */ = {
@@ -343,6 +416,7 @@
 		};
 		8BEA261020BF540B001D1B0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87587D31AF14C9F95CD2DAD3 /* Pods-MHLocalizable.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -354,11 +428,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MHLocalizable/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Helmy.MHLocalizable;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -370,6 +440,7 @@
 		};
 		8BEA261120BF540B001D1B0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 863B289685FEC497E7782E80 /* Pods-MHLocalizable.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -381,11 +452,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MHLocalizable/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Helmy.MHLocalizable;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -396,16 +463,13 @@
 		};
 		8BEA261320BF540B001D1B0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EC077B171E0E3221C96A706 /* Pods-MHLocalizableTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87Z245JJ6D;
 				INFOPLIST_FILE = MHLocalizableTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Helmy.MHLocalizableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -415,16 +479,13 @@
 		};
 		8BEA261420BF540B001D1B0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E15D4F06987D93EE2CBF30A7 /* Pods-MHLocalizableTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87Z245JJ6D;
 				INFOPLIST_FILE = MHLocalizableTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Helmy.MHLocalizableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

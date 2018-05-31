@@ -11,7 +11,7 @@ import UIKit
 // constants
 let APPLE_LANGUAGE_KEY = "AppleLanguages"
 
-class Localizable {
+open class Localizable {
     
     //MARK:- Get the Current Apple Language
     class func currentAppleLanguage() -> String{

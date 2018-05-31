@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MHLocalizable"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "Localizable swizzling StoryBoard"
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,7 @@ Localizable using swizzling StoryBoard for change languages
 
 #s.source_files  = "Classes", "Classes/**/*.{h,m,swift}"
   # s.source_files = "MHLocalizable/**/*.{swift}"
-s.source_files  = 'MHLocalizable/*.{h,m,swift}'
+s.source_files  = 'MHLocalizable/*.{swift}'
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

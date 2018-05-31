@@ -7,143 +7,106 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5CB32C518EEF6E9DC2F03E82 /* Pods_MHLocalizable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791BB0A1DFAD8B5B93DF6D59 /* Pods_MHLocalizable.framework */; };
-		8BEA260520BF540B001D1B0B /* MHLocalizable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEA25FB20BF540B001D1B0B /* MHLocalizable.framework */; };
-		8BEA260A20BF540B001D1B0B /* MHLocalizableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA260920BF540B001D1B0B /* MHLocalizableTests.swift */; };
-		8BEA260C20BF540B001D1B0B /* MHLocalizable.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BEA25FE20BF540B001D1B0B /* MHLocalizable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BEA261620BF5426001D1B0B /* MHLocalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA261520BF5426001D1B0B /* MHLocalizable.swift */; };
-		AA890F9288D11275ACAFBAAF /* Pods_MHLocalizableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8989D3AB7CCC003337D32D70 /* Pods_MHLocalizableTests.framework */; };
+		8B513AA120BF77FE0040F953 /* MHLocalizable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B513A9720BF77FE0040F953 /* MHLocalizable.framework */; };
+		8B513AA620BF77FE0040F953 /* MHLocalizableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B513AA520BF77FE0040F953 /* MHLocalizableTests.swift */; };
+		8B513AB220BF78270040F953 /* MHLocalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B513AB120BF78270040F953 /* MHLocalizable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8BEA260620BF540B001D1B0B /* PBXContainerItemProxy */ = {
+		8B513AA220BF77FE0040F953 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8BEA25F220BF540B001D1B0B /* Project object */;
+			containerPortal = 8B513A8E20BF77FE0040F953 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8BEA25FA20BF540B001D1B0B;
+			remoteGlobalIDString = 8B513A9620BF77FE0040F953;
 			remoteInfo = MHLocalizable;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		791BB0A1DFAD8B5B93DF6D59 /* Pods_MHLocalizable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHLocalizable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		863B289685FEC497E7782E80 /* Pods-MHLocalizable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHLocalizable.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHLocalizable/Pods-MHLocalizable.release.xcconfig"; sourceTree = "<group>"; };
-		87587D31AF14C9F95CD2DAD3 /* Pods-MHLocalizable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHLocalizable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHLocalizable/Pods-MHLocalizable.debug.xcconfig"; sourceTree = "<group>"; };
-		8989D3AB7CCC003337D32D70 /* Pods_MHLocalizableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHLocalizableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BEA25FB20BF540B001D1B0B /* MHLocalizable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MHLocalizable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BEA25FE20BF540B001D1B0B /* MHLocalizable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHLocalizable.h; sourceTree = "<group>"; };
-		8BEA25FF20BF540B001D1B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BEA260420BF540B001D1B0B /* MHLocalizableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHLocalizableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BEA260920BF540B001D1B0B /* MHLocalizableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHLocalizableTests.swift; sourceTree = "<group>"; };
-		8BEA260B20BF540B001D1B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BEA261520BF5426001D1B0B /* MHLocalizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHLocalizable.swift; sourceTree = "<group>"; };
-		8EC077B171E0E3221C96A706 /* Pods-MHLocalizableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHLocalizableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHLocalizableTests/Pods-MHLocalizableTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E15D4F06987D93EE2CBF30A7 /* Pods-MHLocalizableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHLocalizableTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHLocalizableTests/Pods-MHLocalizableTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B513A9720BF77FE0040F953 /* MHLocalizable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MHLocalizable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B513A9B20BF77FE0040F953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B513AA020BF77FE0040F953 /* MHLocalizableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHLocalizableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B513AA520BF77FE0040F953 /* MHLocalizableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHLocalizableTests.swift; sourceTree = "<group>"; };
+		8B513AA720BF77FE0040F953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B513AB120BF78270040F953 /* MHLocalizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHLocalizable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8BEA25F720BF540B001D1B0B /* Frameworks */ = {
+		8B513A9320BF77FE0040F953 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CB32C518EEF6E9DC2F03E82 /* Pods_MHLocalizable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BEA260120BF540B001D1B0B /* Frameworks */ = {
+		8B513A9D20BF77FE0040F953 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BEA260520BF540B001D1B0B /* MHLocalizable.framework in Frameworks */,
-				AA890F9288D11275ACAFBAAF /* Pods_MHLocalizableTests.framework in Frameworks */,
+				8B513AA120BF77FE0040F953 /* MHLocalizable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5708F30ACAA76685A8EE0C97 /* Pods */ = {
+		8B513A8D20BF77FE0040F953 = {
 			isa = PBXGroup;
 			children = (
-				87587D31AF14C9F95CD2DAD3 /* Pods-MHLocalizable.debug.xcconfig */,
-				863B289685FEC497E7782E80 /* Pods-MHLocalizable.release.xcconfig */,
-				8EC077B171E0E3221C96A706 /* Pods-MHLocalizableTests.debug.xcconfig */,
-				E15D4F06987D93EE2CBF30A7 /* Pods-MHLocalizableTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		8BEA25F120BF540B001D1B0B = {
-			isa = PBXGroup;
-			children = (
-				8BEA25FD20BF540B001D1B0B /* MHLocalizable */,
-				8BEA260820BF540B001D1B0B /* MHLocalizableTests */,
-				8BEA25FC20BF540B001D1B0B /* Products */,
-				5708F30ACAA76685A8EE0C97 /* Pods */,
-				E977968298F5FED6BB60E49B /* Frameworks */,
+				8B513A9920BF77FE0040F953 /* MHLocalizable */,
+				8B513AA420BF77FE0040F953 /* MHLocalizableTests */,
+				8B513A9820BF77FE0040F953 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8BEA25FC20BF540B001D1B0B /* Products */ = {
+		8B513A9820BF77FE0040F953 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8BEA25FB20BF540B001D1B0B /* MHLocalizable.framework */,
-				8BEA260420BF540B001D1B0B /* MHLocalizableTests.xctest */,
+				8B513A9720BF77FE0040F953 /* MHLocalizable.framework */,
+				8B513AA020BF77FE0040F953 /* MHLocalizableTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8BEA25FD20BF540B001D1B0B /* MHLocalizable */ = {
+		8B513A9920BF77FE0040F953 /* MHLocalizable */ = {
 			isa = PBXGroup;
 			children = (
-				8BEA25FE20BF540B001D1B0B /* MHLocalizable.h */,
-				8BEA261520BF5426001D1B0B /* MHLocalizable.swift */,
-				8BEA25FF20BF540B001D1B0B /* Info.plist */,
+				8B513AB120BF78270040F953 /* MHLocalizable.swift */,
+				8B513A9B20BF77FE0040F953 /* Info.plist */,
 			);
 			path = MHLocalizable;
 			sourceTree = "<group>";
 		};
-		8BEA260820BF540B001D1B0B /* MHLocalizableTests */ = {
+		8B513AA420BF77FE0040F953 /* MHLocalizableTests */ = {
 			isa = PBXGroup;
 			children = (
-				8BEA260920BF540B001D1B0B /* MHLocalizableTests.swift */,
-				8BEA260B20BF540B001D1B0B /* Info.plist */,
+				8B513AA520BF77FE0040F953 /* MHLocalizableTests.swift */,
+				8B513AA720BF77FE0040F953 /* Info.plist */,
 			);
 			path = MHLocalizableTests;
-			sourceTree = "<group>";
-		};
-		E977968298F5FED6BB60E49B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				791BB0A1DFAD8B5B93DF6D59 /* Pods_MHLocalizable.framework */,
-				8989D3AB7CCC003337D32D70 /* Pods_MHLocalizableTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8BEA25F820BF540B001D1B0B /* Headers */ = {
+		8B513A9420BF77FE0040F953 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BEA260C20BF540B001D1B0B /* MHLocalizable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8BEA25FA20BF540B001D1B0B /* MHLocalizable */ = {
+		8B513A9620BF77FE0040F953 /* MHLocalizable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BEA260F20BF540B001D1B0B /* Build configuration list for PBXNativeTarget "MHLocalizable" */;
+			buildConfigurationList = 8B513AAB20BF77FE0040F953 /* Build configuration list for PBXNativeTarget "MHLocalizable" */;
 			buildPhases = (
-				6A6083BF5C2B6E0908A5F7C2 /* [CP] Check Pods Manifest.lock */,
-				8BEA25F620BF540B001D1B0B /* Sources */,
-				8BEA25F720BF540B001D1B0B /* Frameworks */,
-				8BEA25F820BF540B001D1B0B /* Headers */,
-				8BEA25F920BF540B001D1B0B /* Resources */,
+				8B513A9220BF77FE0040F953 /* Sources */,
+				8B513A9320BF77FE0040F953 /* Frameworks */,
+				8B513A9420BF77FE0040F953 /* Headers */,
+				8B513A9520BF77FE0040F953 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -151,74 +114,73 @@
 			);
 			name = MHLocalizable;
 			productName = MHLocalizable;
-			productReference = 8BEA25FB20BF540B001D1B0B /* MHLocalizable.framework */;
+			productReference = 8B513A9720BF77FE0040F953 /* MHLocalizable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8BEA260320BF540B001D1B0B /* MHLocalizableTests */ = {
+		8B513A9F20BF77FE0040F953 /* MHLocalizableTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BEA261220BF540B001D1B0B /* Build configuration list for PBXNativeTarget "MHLocalizableTests" */;
+			buildConfigurationList = 8B513AAE20BF77FE0040F953 /* Build configuration list for PBXNativeTarget "MHLocalizableTests" */;
 			buildPhases = (
-				4B692C7802591A70A92388B7 /* [CP] Check Pods Manifest.lock */,
-				8BEA260020BF540B001D1B0B /* Sources */,
-				8BEA260120BF540B001D1B0B /* Frameworks */,
-				8BEA260220BF540B001D1B0B /* Resources */,
+				8B513A9C20BF77FE0040F953 /* Sources */,
+				8B513A9D20BF77FE0040F953 /* Frameworks */,
+				8B513A9E20BF77FE0040F953 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8BEA260720BF540B001D1B0B /* PBXTargetDependency */,
+				8B513AA320BF77FE0040F953 /* PBXTargetDependency */,
 			);
 			name = MHLocalizableTests;
 			productName = MHLocalizableTests;
-			productReference = 8BEA260420BF540B001D1B0B /* MHLocalizableTests.xctest */;
+			productReference = 8B513AA020BF77FE0040F953 /* MHLocalizableTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8BEA25F220BF540B001D1B0B /* Project object */ = {
+		8B513A8E20BF77FE0040F953 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Mohamed Helmy";
 				TargetAttributes = {
-					8BEA25FA20BF540B001D1B0B = {
+					8B513A9620BF77FE0040F953 = {
 						CreatedOnToolsVersion = 9.3.1;
 						LastSwiftMigration = 0930;
 					};
-					8BEA260320BF540B001D1B0B = {
+					8B513A9F20BF77FE0040F953 = {
 						CreatedOnToolsVersion = 9.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 8BEA25F520BF540B001D1B0B /* Build configuration list for PBXProject "MHLocalizable" */;
+			buildConfigurationList = 8B513A9120BF77FE0040F953 /* Build configuration list for PBXProject "MHLocalizable" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 8BEA25F120BF540B001D1B0B;
-			productRefGroup = 8BEA25FC20BF540B001D1B0B /* Products */;
+			mainGroup = 8B513A8D20BF77FE0040F953;
+			productRefGroup = 8B513A9820BF77FE0040F953 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8BEA25FA20BF540B001D1B0B /* MHLocalizable */,
-				8BEA260320BF540B001D1B0B /* MHLocalizableTests */,
+				8B513A9620BF77FE0040F953 /* MHLocalizable */,
+				8B513A9F20BF77FE0040F953 /* MHLocalizableTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8BEA25F920BF540B001D1B0B /* Resources */ = {
+		8B513A9520BF77FE0040F953 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BEA260220BF540B001D1B0B /* Resources */ = {
+		8B513A9E20BF77FE0040F953 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -227,74 +189,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		4B692C7802591A70A92388B7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MHLocalizableTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6A6083BF5C2B6E0908A5F7C2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MHLocalizable-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		8BEA25F620BF540B001D1B0B /* Sources */ = {
+		8B513A9220BF77FE0040F953 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BEA261620BF5426001D1B0B /* MHLocalizable.swift in Sources */,
+				8B513AB220BF78270040F953 /* MHLocalizable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BEA260020BF540B001D1B0B /* Sources */ = {
+		8B513A9C20BF77FE0040F953 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BEA260A20BF540B001D1B0B /* MHLocalizableTests.swift in Sources */,
+				8B513AA620BF77FE0040F953 /* MHLocalizableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8BEA260720BF540B001D1B0B /* PBXTargetDependency */ = {
+		8B513AA320BF77FE0040F953 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8BEA25FA20BF540B001D1B0B /* MHLocalizable */;
-			targetProxy = 8BEA260620BF540B001D1B0B /* PBXContainerItemProxy */;
+			target = 8B513A9620BF77FE0040F953 /* MHLocalizable */;
+			targetProxy = 8B513AA220BF77FE0040F953 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8BEA260D20BF540B001D1B0B /* Debug */ = {
+		8B513AA920BF77FE0040F953 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +280,7 @@
 			};
 			name = Debug;
 		};
-		8BEA260E20BF540B001D1B0B /* Release */ = {
+		8B513AAA20BF77FE0040F953 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -414,9 +337,8 @@
 			};
 			name = Release;
 		};
-		8BEA261020BF540B001D1B0B /* Debug */ = {
+		8B513AAC20BF77FE0040F953 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87587D31AF14C9F95CD2DAD3 /* Pods-MHLocalizable.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -428,7 +350,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MHLocalizable/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Helmy.MHLocalizable;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -438,9 +364,8 @@
 			};
 			name = Debug;
 		};
-		8BEA261120BF540B001D1B0B /* Release */ = {
+		8B513AAD20BF77FE0040F953 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 863B289685FEC497E7782E80 /* Pods-MHLocalizable.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -452,7 +377,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MHLocalizable/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Helmy.MHLocalizable;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -461,15 +390,18 @@
 			};
 			name = Release;
 		};
-		8BEA261320BF540B001D1B0B /* Debug */ = {
+		8B513AAF20BF77FE0040F953 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EC077B171E0E3221C96A706 /* Pods-MHLocalizableTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87Z245JJ6D;
 				INFOPLIST_FILE = MHLocalizableTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Helmy.MHLocalizableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -477,15 +409,18 @@
 			};
 			name = Debug;
 		};
-		8BEA261420BF540B001D1B0B /* Release */ = {
+		8B513AB020BF77FE0040F953 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E15D4F06987D93EE2CBF30A7 /* Pods-MHLocalizableTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87Z245JJ6D;
 				INFOPLIST_FILE = MHLocalizableTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Helmy.MHLocalizableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -496,34 +431,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8BEA25F520BF540B001D1B0B /* Build configuration list for PBXProject "MHLocalizable" */ = {
+		8B513A9120BF77FE0040F953 /* Build configuration list for PBXProject "MHLocalizable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BEA260D20BF540B001D1B0B /* Debug */,
-				8BEA260E20BF540B001D1B0B /* Release */,
+				8B513AA920BF77FE0040F953 /* Debug */,
+				8B513AAA20BF77FE0040F953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BEA260F20BF540B001D1B0B /* Build configuration list for PBXNativeTarget "MHLocalizable" */ = {
+		8B513AAB20BF77FE0040F953 /* Build configuration list for PBXNativeTarget "MHLocalizable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BEA261020BF540B001D1B0B /* Debug */,
-				8BEA261120BF540B001D1B0B /* Release */,
+				8B513AAC20BF77FE0040F953 /* Debug */,
+				8B513AAD20BF77FE0040F953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BEA261220BF540B001D1B0B /* Build configuration list for PBXNativeTarget "MHLocalizableTests" */ = {
+		8B513AAE20BF77FE0040F953 /* Build configuration list for PBXNativeTarget "MHLocalizableTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BEA261320BF540B001D1B0B /* Debug */,
-				8BEA261420BF540B001D1B0B /* Release */,
+				8B513AAF20BF77FE0040F953 /* Debug */,
+				8B513AB020BF77FE0040F953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8BEA25F220BF540B001D1B0B /* Project object */;
+	rootObject = 8B513A8E20BF77FE0040F953 /* Project object */;
 }

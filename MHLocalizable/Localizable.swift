@@ -11,7 +11,7 @@ import UIKit
 // constants
 let APPLE_LANGUAGE_KEY = "AppleLanguages"
 
-class MHLocalizable {
+class Localizable {
     
     //MARK:- Get the Current Apple Language
     class func currentAppleLanguage() -> String{
@@ -39,7 +39,7 @@ class MHLocalizable {
     
     //MARK:- Change View  Appearance (LTR or RTL)
     class func check_RTL_LTR(){
-        switch MHLocalizable.currentAppleLanguage() {
+        switch Localizable.currentAppleLanguage() {
         case "ar","arc","az","dv","he","ku","fa","ur":
             UIView.appearance().semanticContentAttribute = .forceRightToLeft
         default:
@@ -85,7 +85,7 @@ class MHLocalizable {
 extension Bundle {
     
     @objc func specialLocalizedStringForKey(key: String, value: String?, table tableName: String?) -> String {
-        let currentLanguage = MHLocalizable.currentAppleLanguage()
+        let currentLanguage = Localizable.currentAppleLanguage()
         var bundle = Bundle();
         if let _path = Bundle.main.path(forResource: currentLanguage, ofType: "lproj") {
             bundle = Bundle(path: _path)!

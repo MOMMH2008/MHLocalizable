@@ -1,0 +1,7 @@
+*.podspec linguist-language=Swift
+* linguist-vendored
+*.js linguist-vendored=false
+static/* linguist-vendored
+*.rb linguist-language= Swift
+* linguist-vendored
+*.swift linguist-vendored=false

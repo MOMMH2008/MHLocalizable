@@ -76,4 +76,4 @@ class ViewController: UIViewController {
     }
     
 }
-
+//self.programmaticallylocalizedLabel.text = NSLocalizedString("Test localize String", comment: "")

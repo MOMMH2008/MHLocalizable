@@ -21,7 +21,6 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
-static/* linguist-vendored
 
 ## Obj-C/Swift specific
 *.hmap

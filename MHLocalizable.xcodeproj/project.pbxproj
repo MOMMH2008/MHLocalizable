@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8B513AA120BF77FE0040F953 /* MHLocalizable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B513A9720BF77FE0040F953 /* MHLocalizable.framework */; };
 		8B513AA620BF77FE0040F953 /* MHLocalizableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B513AA520BF77FE0040F953 /* MHLocalizableTests.swift */; };
-		8B513AB220BF78270040F953 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B513AB120BF78270040F953 /* Localizable.swift */; };
+		8B513AB220BF78270040F953 /* MHLocalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B513AB120BF78270040F953 /* MHLocalizable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,7 @@
 		8B513AA020BF77FE0040F953 /* MHLocalizableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHLocalizableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B513AA520BF77FE0040F953 /* MHLocalizableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHLocalizableTests.swift; sourceTree = "<group>"; };
 		8B513AA720BF77FE0040F953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B513AB120BF78270040F953 /* Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		8B513AB120BF78270040F953 /* MHLocalizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHLocalizable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 		8B513A9920BF77FE0040F953 /* MHLocalizable */ = {
 			isa = PBXGroup;
 			children = (
-				8B513AB120BF78270040F953 /* Localizable.swift */,
+				8B513AB120BF78270040F953 /* MHLocalizable.swift */,
 				8B513A9B20BF77FE0040F953 /* Info.plist */,
 			);
 			path = MHLocalizable;
@@ -194,7 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B513AB220BF78270040F953 /* Localizable.swift in Sources */,
+				8B513AB220BF78270040F953 /* MHLocalizable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

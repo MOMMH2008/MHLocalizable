@@ -9,6 +9,7 @@
 import XCTest
 @testable import MHLocalizable
 
+
 class MHLocalizableTests: XCTestCase {
     
     override func setUp() {

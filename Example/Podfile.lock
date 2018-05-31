@@ -1,0 +1,16 @@
+PODS:
+  - MHLocalizable (0.1.4)
+
+DEPENDENCIES:
+  - MHLocalizable
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MHLocalizable
+
+SPEC CHECKSUMS:
+  MHLocalizable: c1705bc7dab996a8b90cb3d42de398cf2e227d34
+
+PODFILE CHECKSUM: ef3b49384eb143e2ce555a6d7482351835d7cf68
+
+COCOAPODS: 1.5.0

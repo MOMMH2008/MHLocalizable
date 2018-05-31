@@ -1,0 +1,6 @@
+framework module MHLocalizable {
+  umbrella header "MHLocalizable-umbrella.h"
+
+  export *
+  module * { export * }
+}

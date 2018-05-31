@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Welcome in USA"; ObjectID = "EsW-5Y-N6a"; */
+"EsW-5Y-N6a.text" = "Willkommen in Deutschland";
+
+/* Class = "UINavigationItem"; title = "Example"; ObjectID = "SjU-qS-KmJ"; */
+"SjU-qS-KmJ.title" = "Beispiel";
+
+/* Class = "UIButton"; normalTitle = "Switch languages"; ObjectID = "o3F-Wd-XvA"; */
+"o3F-Wd-XvA.normalTitle" = "Switch languages";

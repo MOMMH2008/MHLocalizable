@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mkw-72-lkJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Example-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MHLocalizableExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="apk-bH-cZF">
+                                <rect key="frame" x="15" y="490" width="345" height="157"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o3F-Wd-XvA">
+                                        <rect key="frame" x="64" y="87" width="216" height="50"/>
+                                        <color key="backgroundColor" red="0.75447373344352175" green="0.85495447114411638" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="216" id="gx8-TD-UXP"/>
+                                            <constraint firstAttribute="height" constant="50" id="kCq-d6-5GU"/>
+                                        </constraints>
+                                        <state key="normal" title="Switch languages">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="switchLanguage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CeH-r3-2Hx"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbz-bf-aHf">
+                                        <rect key="frame" x="64" y="30" width="48" height="48"/>
+                                        <state key="normal" image="Germany"/>
+                                        <connections>
+                                            <action selector="switchLanguage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lOB-Wr-ixA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o9S-SL-dlJ">
+                                        <rect key="frame" x="232" y="30" width="48" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="XW3-dj-Shv"/>
+                                            <constraint firstAttribute="width" constant="48" id="y7w-WR-EJh"/>
+                                        </constraints>
+                                        <state key="normal" image="Egypt"/>
+                                        <connections>
+                                            <action selector="switchLanguage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Iub-8V-x4V"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKV-N7-15U">
+                                        <rect key="frame" x="120" y="30" width="48" height="48"/>
+                                        <state key="normal" image="USA"/>
+                                        <connections>
+                                            <action selector="switchLanguage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ohz-Rj-Lai"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MvM-bk-4WH">
+                                        <rect key="frame" x="176" y="30" width="48" height="48"/>
+                                        <state key="normal" image="France"/>
+                                        <connections>
+                                            <action selector="switchLanguage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9ws-C6-OvF"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="o3F-Wd-XvA" firstAttribute="centerX" secondItem="apk-bH-cZF" secondAttribute="centerX" id="2Js-sT-f0d"/>
+                                    <constraint firstAttribute="height" constant="157" id="4EO-wQ-jVt"/>
+                                    <constraint firstItem="MvM-bk-4WH" firstAttribute="height" secondItem="dbz-bf-aHf" secondAttribute="height" id="5kc-pX-1Dn"/>
+                                    <constraint firstItem="lKV-N7-15U" firstAttribute="leading" secondItem="dbz-bf-aHf" secondAttribute="trailing" constant="8" id="8ic-Rg-5eG"/>
+                                    <constraint firstItem="o3F-Wd-XvA" firstAttribute="leading" secondItem="dbz-bf-aHf" secondAttribute="leading" id="8jQ-IE-9og"/>
+                                    <constraint firstItem="lKV-N7-15U" firstAttribute="top" secondItem="dbz-bf-aHf" secondAttribute="top" id="A20-YH-2b5"/>
+                                    <constraint firstItem="o9S-SL-dlJ" firstAttribute="top" secondItem="dbz-bf-aHf" secondAttribute="top" id="Os6-lP-UZD"/>
+                                    <constraint firstItem="o9S-SL-dlJ" firstAttribute="bottom" secondItem="dbz-bf-aHf" secondAttribute="bottom" id="TTD-2S-hnq"/>
+                                    <constraint firstItem="lKV-N7-15U" firstAttribute="bottom" secondItem="dbz-bf-aHf" secondAttribute="bottom" id="WyQ-J3-M3i"/>
+                                    <constraint firstItem="MvM-bk-4WH" firstAttribute="bottom" secondItem="dbz-bf-aHf" secondAttribute="bottom" id="X8g-Er-1jX"/>
+                                    <constraint firstItem="MvM-bk-4WH" firstAttribute="leading" secondItem="lKV-N7-15U" secondAttribute="trailing" constant="8" id="bPQ-Ee-0C5"/>
+                                    <constraint firstItem="o9S-SL-dlJ" firstAttribute="trailing" secondItem="o3F-Wd-XvA" secondAttribute="trailing" id="cWx-Bo-gkh"/>
+                                    <constraint firstItem="o9S-SL-dlJ" firstAttribute="height" secondItem="dbz-bf-aHf" secondAttribute="height" id="d1d-84-ye1"/>
+                                    <constraint firstItem="MvM-bk-4WH" firstAttribute="top" secondItem="dbz-bf-aHf" secondAttribute="top" id="de8-AX-p7y"/>
+                                    <constraint firstItem="MvM-bk-4WH" firstAttribute="width" secondItem="dbz-bf-aHf" secondAttribute="width" id="dl8-Ft-xk9"/>
+                                    <constraint firstItem="lKV-N7-15U" firstAttribute="width" secondItem="dbz-bf-aHf" secondAttribute="width" id="duG-ZU-lyb"/>
+                                    <constraint firstAttribute="bottom" secondItem="o3F-Wd-XvA" secondAttribute="bottom" constant="20" id="gZF-c3-wMe"/>
+                                    <constraint firstItem="MvM-bk-4WH" firstAttribute="leading" secondItem="lKV-N7-15U" secondAttribute="trailing" constant="8" id="hHo-1q-ijD"/>
+                                    <constraint firstItem="lKV-N7-15U" firstAttribute="height" secondItem="dbz-bf-aHf" secondAttribute="height" id="hSZ-dD-hAX"/>
+                                    <constraint firstItem="o9S-SL-dlJ" firstAttribute="leading" secondItem="MvM-bk-4WH" secondAttribute="trailing" constant="8" id="hn7-IP-MyB"/>
+                                    <constraint firstItem="o9S-SL-dlJ" firstAttribute="width" secondItem="dbz-bf-aHf" secondAttribute="width" id="mtE-U7-paI"/>
+                                    <constraint firstItem="o9S-SL-dlJ" firstAttribute="top" secondItem="apk-bH-cZF" secondAttribute="top" constant="30" id="zh6-85-EMH"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome in USA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EsW-5Y-N6a">
+                                <rect key="frame" x="21" y="97" width="333" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="dZE-bb-FIR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="u" translatesAutoresizingMaskIntoConstraints="NO" id="DhK-C2-nCw">
+                                <rect key="frame" x="21" y="168" width="333" height="231.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="DhK-C2-nCw" secondAttribute="height" multiplier="338:235" id="1Mu-3x-fY9"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96846434340032295" green="0.95124756563417212" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="apk-bH-cZF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="6vd-Bz-4Ee"/>
+                            <constraint firstItem="EsW-5Y-N6a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Brx-6c-kRQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EsW-5Y-N6a" secondAttribute="trailing" constant="21" id="DHp-Oi-0vR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="apk-bH-cZF" secondAttribute="bottom" constant="20" id="Dja-Jb-z1Q"/>
+                            <constraint firstItem="DhK-C2-nCw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JIN-TC-Un3"/>
+                            <constraint firstItem="DhK-C2-nCw" firstAttribute="top" secondItem="EsW-5Y-N6a" secondAttribute="bottom" constant="28" id="KVk-3w-5cX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="apk-bH-cZF" secondAttribute="trailing" constant="15" id="QtU-on-yOG"/>
+                            <constraint firstItem="DhK-C2-nCw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="21" id="Xf5-y8-566"/>
+                            <constraint firstItem="EsW-5Y-N6a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="21" id="hkc-Qq-j8v"/>
+                            <constraint firstItem="EsW-5Y-N6a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="33" id="poC-24-VrY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DhK-C2-nCw" secondAttribute="trailing" constant="21" id="xhB-db-YmJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Example" id="SjU-qS-KmJ">
+                        <barButtonItem key="leftBarButtonItem" systemItem="bookmarks" id="30r-xr-NBk"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imgLang" destination="DhK-C2-nCw" id="WrP-ex-tKj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="704.79999999999995" y="35.532233883058474"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="99m-QO-G3R">
+            <objects>
+                <navigationController storyboardIdentifier="Languages" automaticallyAdjustsScrollViewInsets="NO" id="mkw-72-lkJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zr9-46-das">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ezN-kM-6l5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kSR-rc-P0z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-234.40000000000001" y="35.532233883058474"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Egypt" width="48" height="48"/>
+        <image name="France" width="48" height="48"/>
+        <image name="Germany" width="48" height="48"/>
+        <image name="USA" width="48" height="48"/>
+        <image name="u" width="259" height="194"/>
+    </resources>
+</document>

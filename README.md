@@ -81,14 +81,15 @@ And in the action of button that will change the Language Add this
 ```swift
          if MHLocalizable.currentAppleLanguage() != "fr" {
                 MHLocalizable.setAppleLanguageTo(lang: "fr")
-                self.reloadRootViewController()
+                //optional to reload any specific view don't forget change the "Identifier"
+                MHLocalizable.reloadRootViewController(ViewControllerIdentifier: "your ViewController Identifier")
             }
 ```
 
 
 ## Contributing
-Thank you <a href="https://www.Appsinnovate.com/">Appsinnovate</a>  
-Thank you <a href="https://medium.com/if-let-swift-programming/working-with-localization-in-swift-4a87f0d393a4/">moath othman</a>  
+Thank you <a href="https://www.Appsinnovate.com/">Appsinnovate</a> for Support.
+Thank you <a href="https://medium.com/@dark_torch/">moath othman</a> for Inspiration.
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 

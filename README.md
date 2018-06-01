@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="/Images/banner.png" height="150"/>
+  <img src="/Images/banner.png" height="175"/>
   <br>
   MHLocalizable
   <br>
@@ -34,8 +34,6 @@ MHLocalizable support all RTL and LTR languages , it's a simple and easy framewo
 
 </p>
 
-## Features
-
 ## Requirements
 * iOS 9+
 * Swift 4+
@@ -49,32 +47,52 @@ MHLocalizable support all RTL and LTR languages , it's a simple and easy framewo
 - [x] Support reload any specific view after localization.
 - [x] Support iOS 9.0+ 
 - [x] Full documentation.
-
+- [x] Support full example.
 
 
 ## Installation
 
-
-
-
+### CocoaPods
+Simply add the following to your project Podfile.
+```swift
+pod 'MHLocalizable'
+```
+### Manual
+Simply add the this file MHLocalizable to your project project and it will do every thing.
 
 
 
 ## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+First in AppDelegate
+```swift
+import MHLocalizable
+```
+Add in "didFinishLaunchingWithOptions"
+```swift
+//TODO:- DoTheSwizzling
+        MHLocalizable.DoTheSwizzling()
+```
+------------------
+Add in your ViewController
+```swift
+import MHLocalizable
+```
+And in the action of button that will change the Language Add this
+```swift
+         if MHLocalizable.currentAppleLanguage() != "fr" {
+                MHLocalizable.setAppleLanguageTo(lang: "fr")
+                self.reloadRootViewController()
+            }
 ```
 
 
 ## Contributing
+Thank you <a href="https://www.Appsinnovate.com/">Appsinnovate</a>  
+Thank you <a href="https://medium.com/if-let-swift-programming/working-with-localization-in-swift-4a87f0d393a4/">moath othman</a>  
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

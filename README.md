@@ -11,7 +11,6 @@
   
    <img src="https://img.shields.io/badge/build-passing-green.svg"/>
    <img src="https://img.shields.io/badge/pod-v0.1.4-blue.svg"/>
-   <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg"/>
    <img src="https://img.shields.io/badge/platform-iOS%209%2B-red.svg"/>
    <img src="https://img.shields.io/badge/language-Swift%204-orange.svg"/>
    <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg"/>

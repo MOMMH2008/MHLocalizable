@@ -58,21 +58,25 @@ Simply add the following to your project Podfile.
 pod 'MHLocalizable'
 ```
 ### Manual
-Simply add the this file MHLocalizable to your project project and it will do every thing.
+Simply add the this file `MHLocalizable` to your project project and it will do every thing.
 
 
 
 ## Usage
+
+#### AppDelegate
 First in AppDelegate
 ```swift
 import MHLocalizable
 ```
+
 Add in "didFinishLaunchingWithOptions"
 ```swift
 //TODO:- DoTheSwizzling
   MHLocalizable.DoTheSwizzling()
 ```
-------------------
+
+#### ViewController
 Add in your ViewController
 ```swift
 import MHLocalizable

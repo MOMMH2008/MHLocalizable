@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="/Images/banner.png" height="175"/>
+  <img src="/Images/banner2.png" height="175"/>
   <br>
   MHLocalizable
   <br>

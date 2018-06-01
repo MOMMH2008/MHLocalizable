@@ -70,7 +70,7 @@ import MHLocalizable
 Add in "didFinishLaunchingWithOptions"
 ```swift
 //TODO:- DoTheSwizzling
-        MHLocalizable.DoTheSwizzling()
+  MHLocalizable.DoTheSwizzling()
 ```
 ------------------
 Add in your ViewController
@@ -79,11 +79,11 @@ import MHLocalizable
 ```
 And in the action of button that will change the Language Add this
 ```swift
-         if MHLocalizable.currentAppleLanguage() != "fr" {
-                MHLocalizable.setAppleLanguageTo(lang: "fr")
-                //optional to reload any specific view don't forget change the "Identifier"
-                MHLocalizable.reloadRootViewController(ViewControllerIdentifier: "your ViewController Identifier")
-            }
+if MHLocalizable.currentAppleLanguage() != "fr" {
+      MHLocalizable.setAppleLanguageTo(lang: "fr")
+      //optional to reload any specific view don't forget change the "Identifier"
+      MHLocalizable.reloadRootViewController(ViewControllerIdentifier: "your ViewController Identifier")
+    }
 ```
 
 

@@ -1,5 +1,4 @@
 <h1 align="center">
-  <br>
   <img src="/Images/banner.png"/>
   <br>
   MHLocalizable
@@ -21,14 +20,13 @@
 
 
 # MHLocalizable
-Localizable swizzling StoryBoard 
+MHLocalizable support all RTL and LTR Languages , it's a simple and easy framework to improves localization your iOS App quickly, allow you to change language of project in-app without quiting the app by swizzling. it's working on Storyboard itself not string File or any other files. 
 
 
-# Foobar
 
-Foobar is a Python library for dealing with word pluralization.
 
 ## Installation
+## Features
 
 ### Requirements
 * iOS 9 +
@@ -45,12 +43,6 @@ foobar.pluralize('goose') # returns 'geese'
 foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
-## Development
-```
-$ virtualenv foobar
-$ . foobar/bin/activate
-$ pip install -e .
-```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

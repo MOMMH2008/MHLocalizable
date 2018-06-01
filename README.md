@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="/Images/banner.png"/>
+  <img src="/Images/banner.png" height="150"/>
   <br>
   MHLocalizable
   <br>
@@ -27,18 +27,30 @@ MHLocalizable support all RTL and LTR languages , it's a simple and easy framewo
   
 <img src="/Images/gif.gif" width="300"/>
 <br>
-  <img src="/Images/d.png" width="200"/>
-  <img src="/Images/e.png" width="200"/>
-  <img src="/Images/u.png" width="200"/>
-  <img src="/Images/f.png" width="200"/>
+  <img src="/Images/d.png" width="200" height="400"/>
+  <img src="/Images/e.png" width="200" height="400"/>
+  <img src="/Images/u.png" width="200" height="400"/>
+  <img src="/Images/f.png" width="200" height="400"/>
 
 </p>
 
-### Requirements
+## Features
+
+## Requirements
 * iOS 9+
 * Swift 4+
 
 ## Features
+
+- [x] Full supported Swizzling so will change on the fly.
+- [x] Working on Storyboard directly.
+- [x] Did't use string file or any other files. 
+- [x] Support all RTL and LTR languages, auto detecte and change the layout according to Language. 
+- [x] Support reload any specific view after localization.
+- [x] Support iOS 9.0+ 
+- [x] Full documentation.
+
+
 
 ## Installation
 

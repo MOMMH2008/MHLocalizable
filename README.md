@@ -41,7 +41,7 @@ MHLocalizable support all RTL and LTR languages , it's a simple and easy framewo
 
 - [x] Full supported Swizzling so will change on the fly.
 - [x] Working on Storyboard directly.
-- [x] Did't use string file or any other files. 
+- [x] Doesn't use string file or any other files. 
 - [x] Support all RTL and LTR languages, auto detecte and change the layout according to Language. 
 - [x] Support reload any specific view after localization.
 - [x] Support iOS 9.0+ 
